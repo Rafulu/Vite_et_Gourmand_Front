@@ -118,11 +118,86 @@
 
             </div>
         </section>
+        
+        <section class="container my-5">
+            <h2>Avis Vérifiés</h2>
+    
+            <div id="avisCarousel" class="carousel slide" data-bs-ride="carousel">
+        
+                <!-- Indicateurs -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#avisCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Avis 1"></button>
+                    <button type="button" data-bs-target="#avisCarousel" data-bs-slide-to="1" aria-label="Avis 2"></button>
+                    <button type="button" data-bs-target="#avisCarousel" data-bs-slide-to="2" aria-label="Avis 3"></button>
+                </div>
+
+                <!-- Avis -->
+                <div class="carousel-inner"> 
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-4 text-center">
+                            <p><strong>Sophie M.</strong></p>
+                            <p><em>Menu Gourmet</em></p>
+                            <p>⭐⭐⭐⭐⭐</p>
+                            <p>Tout était délicieux !</p>
+                        </div>
+                        <div class="col-6 col-md-4 text-center">
+                            <p><strong>Marc T.</strong></p>
+                            <p><em>Menu du Chef</em></p>
+                            <p>⭐⭐⭐⭐⭐</p>
+                            <p>Service au top !</p>
+                        </div>
+                        <div class="col-md-4 text-center d-none d-md-block">
+                            <p><strong>Emma R.</strong></p>
+                            <p><em>Menu Végé</em></p>
+                            <p>⭐⭐⭐⭐⭐</p>
+                            <p>Plats savoureux !</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Flèches -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#avisCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Précédent</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#avisCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Suivant</span>
+                </button>
+
+            </div>
+        </section>
     </main>
 
     <!-- Pied de page -->
-    <footer>
-        
+    <footer class="mt-5 py-4">
+        <div class="container">
+            <div class="row">
+            
+                <!-- Liens légaux -->
+                <div class="col-12 col-md-4">
+                    <a href="/cgv">CGV</a>
+                    <span>|</span>
+                    <a href="/mentions-legales">Mentions Légales</a>
+                    <span>|</span>
+                    <a href="/horaires">Horaires Entreprise</a>
+                </div>
+
+                <!-- Téléphones -->
+                <div class="col-12 col-md-4 text-md-center">
+                    <p>📞 06 00 00 00 00</p>
+                    <p>📞 06 00 00 00 00</p>
+                </div>
+
+                <!-- Email -->
+                <div class="col-12 col-md-4 text-md-end">
+                    <p>✉️ email@example.com</p>
+                </div>
+
+            </div>
+        </div>
     </footer>
 
     <!-- Bootstrap JS -->
