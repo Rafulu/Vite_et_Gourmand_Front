@@ -1,0 +1,66 @@
+/* Variables */
+:root {
+    --couleur-principale: #8B2635;
+    --couleur-secondaire: #F2E8D9;
+    --couleur-texte-secondaire: #FFD700;
+    --couleur-texte: #2D2D2D;
+    --couleur-fond: #FFFFFF;
+    --couleur-accent: #7D9B76;
+}
+
+/* Police */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--couleur-texte);
+    background-color: var(--couleur-fond);
+}
+
+h2, h3 {
+    color: var(--couleur-texte);
+}
+
+/* Navbar */
+nav {
+    background-color: var(--couleur-principale);
+    border-bottom: 2px solid var(--couleur-principale);
+    padding: 15px 0;
+}
+
+nav .navbar-brand span {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--couleur-texte-secondaire);
+}
+
+nav .navbar-brand small {
+    font-size: 0.75rem;
+    color: var(--couleur-texte-secondaire);
+    font-style: italic;
+}
+
+nav .nav-link {
+    color: var(--couleur-texte-secondaire);
+    font-weight: 600;
+}
+
+nav .nav-link:hover {
+    color: var(--couleur-texte-secondaire);
+}
+
+nav .btn-outline-primary {
+    color: var(--couleur-texte-secondaire);
+    border-color: var(--couleur-texte-secondaire);
+}
+
+nav .btn-outline-primary:hover {
+    background-color: var(--couleur-texte-secondaire);
+    color: var(--couleur-principale);
+}
+
+nav .btn-primary {
+    background-color: var(--couleur-texte-secondaire);
+    border-color: var(--couleur-texte-secondaire);
+    color: var(--couleur-principale);
+}
