@@ -175,3 +175,20 @@ form a {
 form a:hover {
     color: #6B1D29;
 }
+
+/* Carte Menus */
+.card-title {
+    font-weight: 800;
+    color: var(--couleur-principale);
+    
+} 
+
+.card {
+    border-color: var(--couleur-principale);
+    border-width: 3px;
+}
+
+.card-text {
+    font-weight: 400;
+    color: var(--couleur-texte)
+}
