@@ -156,3 +156,22 @@ section h3 {
     background-color: var(--couleur-principale);
     color: white;
 }
+
+/* Formulaire */
+.form-control:focus {
+    border-color: var(--couleur-principale);
+    box-shadow: 0 0 0 0.2rem rgba(139, 38, 53, 0.25);
+}
+
+.form-label {
+    font-weight: 600;
+    color: var(--couleur-texte);
+}
+
+form a {
+    color: var(--couleur-principale);
+}
+
+form a:hover {
+    color: #6B1D29;
+}
