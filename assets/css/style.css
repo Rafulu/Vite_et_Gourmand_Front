@@ -1,4 +1,6 @@
-/* Variables */
+/* Police */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');/* Variables */
+
 :root {
     --couleur-principale: #8B2635;
     --couleur-secondaire: #F2E8D9;
@@ -7,9 +9,6 @@
     --couleur-fond: #FFFFFF;
     --couleur-accent: #7D9B76;
 }
-
-/* Police */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
